@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+*{ box-sizing: border-box; }
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.creator{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+.creator a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.creator a:hover{
+    color: #00BF69;
+    background: #fff;
+    text-decoration: none;
+}
+
+header {
+    padding: 15px;
+    color: #fff;
+    background: #00BF69;
+}
+
+.chat-box {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.chat-box .thread {
+    background: rgba(226, 226, 226, 0.3);
+    margin: 10px 0;
+    height: 60vh;
+    overflow-x: hidden; 
+    overflow-y: scroll; 
+}
+
+.chat-box .thread p {
+    padding: 5px;
+    margin: 0;
+    border-bottom: 1px solid #fff;
+}
+
+.chat-box .thread p strong {
+    color: #00BF69;
+}
+
+.chat-box .feedback {
+    background: rgba(0, 191, 105, .8);
+    padding: 2px;
+    color: #fff;
+    font-size: .9rem;
+}
+
+.chat-box .user-input input, .chat-box .user-input button {
+    display: block;
+    width: 100%;
+}
+
+.chat-box .user-input input {
+    background: #fff;
+    border: 1px solid #00BF69;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+.chat-box .user-input input:focus {
+    background: rgba(0, 191, 105, .2);
+}
+
+.chat-box .user-input button {
+    background: rgba(0, 191, 105, .8);
+    padding: 5px;
+    border: none;
+    color: #fff;
+}
+
+.chat-box .user-input button:hover {
+    background: rgba(0, 191, 105, 1);
+    cursor: pointer;
+}
+

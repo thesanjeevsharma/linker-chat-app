@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Linker Chat</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="creator">
+    <a href="https://github.com/thesanjeevsharma" target="_blank">@thesanjeevsharma</a>
+</div>
+<header>
+    <h1>Linker Chat</h1>
+</header>
+<main>
+    <section class="chat-box">
+        <div class="thread" id="thread"></div>
+        <div class="feedback" id="feedback"></div>
+        <div class="user-input">
+            <input type="text" id="name" placeholder="Name">
+            <input type="text" id="message" placeholder="Message">
+            <button id="send">Send</button>
+        </div>
+    </section>
+</main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.7.3/socket.io.js"></script>
+<script src="js/chat.js"></script>
+</body>
+</html>
